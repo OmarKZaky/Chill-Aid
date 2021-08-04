@@ -1,0 +1,40 @@
+
+
+@media screen and (max-width: 1200px){
+    nav {
+        padding-inline-end: 0rem;
+    }
+}
+
+@media screen and (max-width: 1060px){
+    nav {
+        padding-inline-end: 0px;
+    }
+
+    .navlogo span {
+        font-size: 40px;
+    }
+
+    .navlogo a {
+        font-size: 20px;
+    }
+
+    .nav-items li {
+        margin-right: -22px;
+    }
+}
+
+@media screen and (max-width: 913px){
+    .nav-items {
+        display: none;
+    }
+
+    nav button {
+        display: block;
+    }
+
+    #mobile-menu .show {
+        right: 2%;
+        transition: 0.7s ease;
+    }
+}
